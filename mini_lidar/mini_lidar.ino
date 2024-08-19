@@ -94,7 +94,7 @@ void read_data() {
 }
 
 void setup() {
-  set_microros_wifi_transports("WARPSTAR-AC6D64", "435C37A1AD1BE", "192.168.0.8", 8888);
+  set_microros_wifi_transports("ID", "PASSWORD", "192.168.0.8", 8888);
   delay(2000);
 
   allocator = rcl_get_default_allocator();
