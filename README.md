@@ -9,6 +9,7 @@
       
   
   ## protocol
+  inspired by the work of https://github.com/devemin
   |byte||||
   |----|----|----|----|
   |1|header0|0x55||
